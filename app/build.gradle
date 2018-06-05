@@ -2,7 +2,6 @@ if (isDebug.toBoolean()){
     apply plugin: 'com.android.application'
 }else{
     apply plugin: 'com.android.library'
-
 }
 apply plugin: 'kotlin-android'
 
@@ -11,7 +10,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 27
     defaultConfig {
-        if (isDebug){
+        if (isDebug.toBoolean()){
             applicationId "com.finance.widgetlib"
         }
 
