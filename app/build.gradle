@@ -14,7 +14,7 @@ android {
             applicationId "com.finance.widgetlib"
         }
 
-        minSdkVersion 17
+        minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
